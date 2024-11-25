@@ -10,7 +10,20 @@
 <b>4. Restful APIS :</b> Express JS </br> 
 <b>5. Database Server :</b> MongoDB </br> 
 
-<h1> <u> Execution Steps</u></h1>
+<h1> <u> Mandatory Steps</u></h1>
+<ul>
+  <li><b> Pre-requesting</b></li>
+  <ul>
+    <li> Express</li>
+    <ul>
+      <li><b>npm install express</b> </li>
+    </ul>
+    <li>MongoDB</li>
+    <ul>
+      <li> <b>npm install mongodb</b></li>
+    </ul>
+  </ul>
+</ul>
 <ul>
   <li><b>Create MongoDB Database Sever</b></li>
     <ul>
@@ -36,6 +49,20 @@
         </ul>
 </ul>
 
+<h1><u>Execution steps</u></h1>
+<ul>
+  <li> git clone https://github.com/shankermjj/Feedback_Application.git</li>
+  <li> cd <b>Feedback_Application</b></li>
+  <li>To Create DataBase in MongoDB</li>
+    <ul>
+      <li><b>node CreateDB.js</b></li>
+    </ul>
+  <li> To run Application </li>
+  <ul>
+    <li><b> node server.js</b></li> 
+  </ul>
+  <li> Open in Browser with URL: <b> http://localhost:3000/</b></li>
+</ul>
 
 <h1><u>Architecture</u></h1>
 [Click to See Image](https://github.com/user-attachments/assets/e2441cf1-6c38-44bb-981f-77fc0600ebe6)
