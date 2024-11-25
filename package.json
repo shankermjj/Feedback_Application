@@ -1,0 +1,22 @@
+{
+  "name": "feedback_appln",
+  "version": "1.0.0",
+  "description": "This project contains HTML interacts with JS HTML+JS in  Node JS File Fetch html data  & passes into Mongo DB ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "nodejs",
+    "expressjs",
+    "&",
+    "mongodb"
+  ],
+  "author": "Shanker MJJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}

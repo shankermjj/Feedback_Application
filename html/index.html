@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Application</title>
+    <link rel="stylesheet" href="./css/basic.css" type="text/css" > <!--type="text/css" will load cs in express-->
+    <script src="./html/js/basic.js" ></script>
+</head>
+<body>
+    <h2> <center>Feedback Application</center></h2>
+    <form action="/shanker" method="post">
+        
+        <label for="same">Student Name</label><br>
+        <input type="text" id="name" name="name" required><br>  <!-- Compulsory id=name &name=name should be to know id -->
+        
+        <label for="srollno">Roll Number</label><br>
+        <input type="text" id="rollno" name="rollno" required><br>
+
+        <label for="ssubject">Subject</label><br>
+        <input type="text" id="subject" name="subject" required><br>
+
+        <p>Choose any one option for Rating your Subject</p>
+        <select id="op" name="op" required>
+            <option>Excellent</option>  
+            <option>Very Good</option> 
+            <option>Good</option> 
+            <option>Average</option> 
+            <option>Below Average</option>
+            <option>Not Bad</option> 
+        </select> 
+
+        <br>
+        <label for="feedback">Any Suggessions</label><br>
+        
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+       
+        <input type="submit" value="Submit" onclick="perform()">
+        
+        <p id="result" name="result"></p>
+    </form>
+    
+</body>
+</html>
